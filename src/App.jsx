@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import Categories from './pages/Categories';
 import Catproduct from './pages/Catproduct';
+import Getpost from './pages/Getpost';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/catproduct/:categories" element={<Catproduct />} />
+        <Route path="/getpost" element={<Getpost />} />
       </Routes>
     </Router>
   );
